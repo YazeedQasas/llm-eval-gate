@@ -128,7 +128,7 @@ def _cmd_check(args: argparse.Namespace) -> int:
     print(md, end="")
     if args.report:
         Path(args.report).parent.mkdir(parents=True, exist_ok=True)
-        Path(args.report).write_text(md, encoding="utf-8")
+        Path(args.report).write_text(md, encoding="utf-8", newline="\n")
     if args.results:
         write_results(ev.results, args.results)
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
