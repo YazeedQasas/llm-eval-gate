@@ -1,0 +1,1537 @@
+{
+  "aggregates": {
+    "normalized_match": {
+      "mean": 0.0,
+      "n": 56,
+      "pass_rate": 0.0,
+      "passed": 0,
+      "tags": {
+        "arabic": {
+          "mean": 0.0,
+          "n": 28,
+          "pass_rate": 0.0,
+          "passed": 0
+        },
+        "construction": {
+          "mean": 0.0,
+          "n": 6,
+          "pass_rate": 0.0,
+          "passed": 0
+        },
+        "employment": {
+          "mean": 0.0,
+          "n": 8,
+          "pass_rate": 0.0,
+          "passed": 0
+        },
+        "english": {
+          "mean": 0.0,
+          "n": 28,
+          "pass_rate": 0.0,
+          "passed": 0
+        },
+        "lease": {
+          "mean": 0.0,
+          "n": 12,
+          "pass_rate": 0.0,
+          "passed": 0
+        },
+        "loan": {
+          "mean": 0.0,
+          "n": 6,
+          "pass_rate": 0.0,
+          "passed": 0
+        },
+        "sale": {
+          "mean": 0.0,
+          "n": 12,
+          "pass_rate": 0.0,
+          "passed": 0
+        },
+        "tort": {
+          "mean": 0.0,
+          "n": 12,
+          "pass_rate": 0.0,
+          "passed": 0
+        }
+      }
+    },
+    "operative_verdict": {
+      "mean": 0.821429,
+      "n": 56,
+      "pass_rate": 0.821429,
+      "passed": 46,
+      "tags": {
+        "arabic": {
+          "mean": 0.928571,
+          "n": 28,
+          "pass_rate": 0.928571,
+          "passed": 26
+        },
+        "construction": {
+          "mean": 0.833333,
+          "n": 6,
+          "pass_rate": 0.833333,
+          "passed": 5
+        },
+        "employment": {
+          "mean": 0.875,
+          "n": 8,
+          "pass_rate": 0.875,
+          "passed": 7
+        },
+        "english": {
+          "mean": 0.714286,
+          "n": 28,
+          "pass_rate": 0.714286,
+          "passed": 20
+        },
+        "lease": {
+          "mean": 0.75,
+          "n": 12,
+          "pass_rate": 0.75,
+          "passed": 9
+        },
+        "loan": {
+          "mean": 1.0,
+          "n": 6,
+          "pass_rate": 1.0,
+          "passed": 6
+        },
+        "sale": {
+          "mean": 0.833333,
+          "n": 12,
+          "pass_rate": 0.833333,
+          "passed": 10
+        },
+        "tort": {
+          "mean": 0.75,
+          "n": 12,
+          "pass_rate": 0.75,
+          "passed": 9
+        }
+      }
+    }
+  },
+  "cases": {
+    "ar-construction-017": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "construction"
+      ]
+    },
+    "ar-construction-023": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "construction"
+      ]
+    },
+    "ar-construction-035": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "construction"
+      ]
+    },
+    "ar-employment-001": {
+      "operative_line": "حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "employment"
+      ]
+    },
+    "ar-employment-007": {
+      "operative_line": "حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "employment"
+      ]
+    },
+    "ar-employment-025": {
+      "operative_line": "حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "employment"
+      ]
+    },
+    "ar-employment-031": {
+      "operative_line": "حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "employment"
+      ]
+    },
+    "ar-lease-000": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "partial: حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "lease"
+      ]
+    },
+    "ar-lease-006": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "partial: حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "lease"
+      ]
+    },
+    "ar-lease-012": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "partial: حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "lease"
+      ]
+    },
+    "ar-lease-018": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "partial: حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "lease"
+      ]
+    },
+    "ar-lease-024": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "partial: حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "lease"
+      ]
+    },
+    "ar-lease-030": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "partial: حكمت المحكمة بقبول الدعوى جزئياً ورد ما زاد على ذلك.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "lease"
+      ]
+    },
+    "ar-loan-009": {
+      "operative_line": "حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "loan"
+      ]
+    },
+    "ar-loan-015": {
+      "operative_line": "حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "loan"
+      ]
+    },
+    "ar-loan-033": {
+      "operative_line": "حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "loan"
+      ]
+    },
+    "ar-sale-002": {
+      "operative_line": "حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": false,
+          "reason": "got rejected, expected accepted: حكمت المحكمة برد الدعوى وتضمين المدعي الرسوم.",
+          "score": 0.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "sale"
+      ]
+    },
+    "ar-sale-008": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "sale"
+      ]
+    },
+    "ar-sale-014": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "sale"
+      ]
+    },
+    "ar-sale-020": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "sale"
+      ]
+    },
+    "ar-sale-026": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "sale"
+      ]
+    },
+    "ar-sale-032": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "sale"
+      ]
+    },
+    "ar-tort-004": {
+      "operative_line": "حكمت المحكمة بعدم قبول الدعوى لعدم توجيه الإنذار المسبق.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "dismissed: حكمت المحكمة بعدم قبول الدعوى لعدم توجيه الإنذار المسبق.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "tort"
+      ]
+    },
+    "ar-tort-010": {
+      "operative_line": "حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": false,
+          "reason": "got accepted, expected dismissed: حكمت المحكمة بقبول الدعوى وإلزام المدعى عليه بالتنفيذ.",
+          "score": 0.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "tort"
+      ]
+    },
+    "ar-tort-016": {
+      "operative_line": "حكمت المحكمة بعدم قبول الدعوى لعدم توجيه الإنذار المسبق.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "dismissed: حكمت المحكمة بعدم قبول الدعوى لعدم توجيه الإنذار المسبق.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "tort"
+      ]
+    },
+    "ar-tort-022": {
+      "operative_line": "حكمت المحكمة بعدم قبول الدعوى لعدم توجيه الإنذار المسبق.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "dismissed: حكمت المحكمة بعدم قبول الدعوى لعدم توجيه الإنذار المسبق.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "tort"
+      ]
+    },
+    "ar-tort-028": {
+      "operative_line": "حكمت المحكمة بعدم قبول الدعوى لعدم توجيه الإنذار المسبق.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "dismissed: حكمت المحكمة بعدم قبول الدعوى لعدم توجيه الإنذار المسبق.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "tort"
+      ]
+    },
+    "ar-tort-034": {
+      "operative_line": "حكمت المحكمة بعدم قبول الدعوى لعدم توجيه الإنذار المسبق.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "dismissed: حكمت المحكمة بعدم قبول الدعوى لعدم توجيه الإنذار المسبق.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "arabic",
+        "tort"
+      ]
+    },
+    "en-construction-017": {
+      "operative_line": "The court rules: the claim is partially accepted and the remaining requests are rejected.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": false,
+          "reason": "got partial, expected rejected: The court rules: the claim is partially accepted and the remaining requests are rejected.",
+          "score": 0.0
+        }
+      },
+      "tags": [
+        "english",
+        "construction"
+      ]
+    },
+    "en-construction-023": {
+      "operative_line": "The court rules: the claim is rejected and the claimant bears the costs.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: The court rules: the claim is rejected and the claimant bears the costs.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "construction"
+      ]
+    },
+    "en-construction-035": {
+      "operative_line": "The court rules: the claim is rejected and the claimant bears the costs.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: The court rules: the claim is rejected and the claimant bears the costs.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "construction"
+      ]
+    },
+    "en-employment-001": {
+      "operative_line": "The court rules: the claim is rejected and the claimant bears the costs.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: The court rules: the claim is rejected and the claimant bears the costs.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "employment"
+      ]
+    },
+    "en-employment-007": {
+      "operative_line": "The court rules: the claim is accepted and the defendant is ordered to perform.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": false,
+          "reason": "got accepted, expected rejected: The court rules: the claim is accepted and the defendant is ordered to perform.",
+          "score": 0.0
+        }
+      },
+      "tags": [
+        "english",
+        "employment"
+      ]
+    },
+    "en-employment-025": {
+      "operative_line": "The court rules: the claim is rejected and the claimant bears the costs.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: The court rules: the claim is rejected and the claimant bears the costs.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "employment"
+      ]
+    },
+    "en-employment-031": {
+      "operative_line": "The court rules: the claim is rejected and the claimant bears the costs.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "rejected: The court rules: the claim is rejected and the claimant bears the costs.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "employment"
+      ]
+    },
+    "en-lease-000": {
+      "operative_line": "The court rules: the claim is accepted and the defendant is ordered to perform.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: The court rules: the claim is accepted and the defendant is ordered to perform.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "lease"
+      ]
+    },
+    "en-lease-006": {
+      "operative_line": "The court rules: the claim is accepted and the defendant is ordered to perform.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: The court rules: the claim is accepted and the defendant is ordered to perform.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "lease"
+      ]
+    },
+    "en-lease-012": {
+      "operative_line": "The court rules: the claim is rejected and the claimant bears the costs.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": false,
+          "reason": "got rejected, expected accepted: The court rules: the claim is rejected and the claimant bears the costs.",
+          "score": 0.0
+        }
+      },
+      "tags": [
+        "english",
+        "lease"
+      ]
+    },
+    "en-lease-018": {
+      "operative_line": "The court rules: the claim is accepted and the defendant is ordered to perform.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: The court rules: the claim is accepted and the defendant is ordered to perform.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "lease"
+      ]
+    },
+    "en-lease-024": {
+      "operative_line": "The court rules: the claim is rejected and the claimant bears the costs.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": false,
+          "reason": "got rejected, expected accepted: The court rules: the claim is rejected and the claimant bears the costs.",
+          "score": 0.0
+        }
+      },
+      "tags": [
+        "english",
+        "lease"
+      ]
+    },
+    "en-lease-030": {
+      "operative_line": "The court rules: the claim is partially accepted and the remaining requests are rejected.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": false,
+          "reason": "got partial, expected accepted: The court rules: the claim is partially accepted and the remaining requests are rejected.",
+          "score": 0.0
+        }
+      },
+      "tags": [
+        "english",
+        "lease"
+      ]
+    },
+    "en-loan-009": {
+      "operative_line": "The court rules: the claim is accepted and the defendant is ordered to perform.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: The court rules: the claim is accepted and the defendant is ordered to perform.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "loan"
+      ]
+    },
+    "en-loan-015": {
+      "operative_line": "The court rules: the claim is accepted and the defendant is ordered to perform.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: The court rules: the claim is accepted and the defendant is ordered to perform.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "loan"
+      ]
+    },
+    "en-loan-033": {
+      "operative_line": "The court rules: the claim is accepted and the defendant is ordered to perform.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "accepted: The court rules: the claim is accepted and the defendant is ordered to perform.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "loan"
+      ]
+    },
+    "en-sale-002": {
+      "operative_line": "The court rules: the claim is inadmissible for lack of prior notice.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "dismissed: The court rules: the claim is inadmissible for lack of prior notice.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "sale"
+      ]
+    },
+    "en-sale-008": {
+      "operative_line": "The court rules: the claim is accepted and the defendant is ordered to perform.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": false,
+          "reason": "got accepted, expected dismissed: The court rules: the claim is accepted and the defendant is ordered to perform.",
+          "score": 0.0
+        }
+      },
+      "tags": [
+        "english",
+        "sale"
+      ]
+    },
+    "en-sale-014": {
+      "operative_line": "The court rules: the claim is inadmissible for lack of prior notice.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "dismissed: The court rules: the claim is inadmissible for lack of prior notice.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "sale"
+      ]
+    },
+    "en-sale-020": {
+      "operative_line": "The court rules: the claim is inadmissible for lack of prior notice.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "dismissed: The court rules: the claim is inadmissible for lack of prior notice.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "sale"
+      ]
+    },
+    "en-sale-026": {
+      "operative_line": "The court rules: the claim is inadmissible for lack of prior notice.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "dismissed: The court rules: the claim is inadmissible for lack of prior notice.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "sale"
+      ]
+    },
+    "en-sale-032": {
+      "operative_line": "The court rules: the claim is inadmissible for lack of prior notice.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "dismissed: The court rules: the claim is inadmissible for lack of prior notice.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "sale"
+      ]
+    },
+    "en-tort-004": {
+      "operative_line": "The court rules: the claim is partially accepted and the remaining requests are rejected.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "partial: The court rules: the claim is partially accepted and the remaining requests are rejected.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "tort"
+      ]
+    },
+    "en-tort-010": {
+      "operative_line": "The court rules: the claim is inadmissible for lack of prior notice.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": false,
+          "reason": "got dismissed, expected partial: The court rules: the claim is inadmissible for lack of prior notice.",
+          "score": 0.0
+        }
+      },
+      "tags": [
+        "english",
+        "tort"
+      ]
+    },
+    "en-tort-016": {
+      "operative_line": "The court rules: the claim is partially accepted and the remaining requests are rejected.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "partial: The court rules: the claim is partially accepted and the remaining requests are rejected.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "tort"
+      ]
+    },
+    "en-tort-022": {
+      "operative_line": "The court rules: the claim is partially accepted and the remaining requests are rejected.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "partial: The court rules: the claim is partially accepted and the remaining requests are rejected.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "tort"
+      ]
+    },
+    "en-tort-028": {
+      "operative_line": "The court rules: the claim is partially accepted and the remaining requests are rejected.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": true,
+          "reason": "partial: The court rules: the claim is partially accepted and the remaining requests are rejected.",
+          "score": 1.0
+        }
+      },
+      "tags": [
+        "english",
+        "tort"
+      ]
+    },
+    "en-tort-034": {
+      "operative_line": "The court rules: the claim is inadmissible for lack of prior notice.",
+      "scores": {
+        "normalized_match": {
+          "passed": false,
+          "reason": "differs after normalization",
+          "score": 0.0
+        },
+        "operative_verdict": {
+          "passed": false,
+          "reason": "got dismissed, expected partial: The court rules: the claim is inadmissible for lack of prior notice.",
+          "score": 0.0
+        }
+      },
+      "tags": [
+        "english",
+        "tort"
+      ]
+    }
+  },
+  "dataset": {
+    "n": 72,
+    "path": "cases.jsonl"
+  },
+  "evalgate_version": "0.0.1",
+  "excluded": [
+    "ar-construction-005",
+    "ar-construction-011",
+    "ar-construction-029",
+    "ar-employment-013",
+    "ar-employment-019",
+    "ar-loan-003",
+    "ar-loan-021",
+    "ar-loan-027",
+    "en-construction-005",
+    "en-construction-011",
+    "en-construction-029",
+    "en-employment-013",
+    "en-employment-019",
+    "en-loan-003",
+    "en-loan-021",
+    "en-loan-027"
+  ],
+  "fingerprint": {
+    "dataset": "01d3c5871e1245cd8789d08605c7e4fa9ad8c21446b651a60eaa02716cc5f837",
+    "eval_config": "55577e2c2e00c3ca438fe777606614664bad47eaa3f6049f05bcae54990ee30f",
+    "scorers": "a85b4e375d22bd2be973a6b673baf9e295651cbae41375142a9688e2838da3f0"
+  },
+  "format": 1,
+  "guards": {
+    "counts": {
+      "answer_bearing": 16,
+      "self_retrieval": 8
+    },
+    "findings": [
+      {
+        "case_id": "en-loan-003",
+        "detail": "context contains the case's own source document",
+        "doc_id": "judg-en-loan-003",
+        "guard": "self_retrieval",
+        "score": 1.0
+      },
+      {
+        "case_id": "en-loan-003",
+        "detail": "expected answer appears verbatim in context",
+        "doc_id": "judg-en-loan-003",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "en-construction-005",
+        "detail": "operative line appears verbatim in context",
+        "doc_id": "news-en-005",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "en-construction-011",
+        "detail": "context contains the case's own source document",
+        "doc_id": "judg-en-construction-011",
+        "guard": "self_retrieval",
+        "score": 1.0
+      },
+      {
+        "case_id": "en-construction-011",
+        "detail": "expected answer appears verbatim in context",
+        "doc_id": "judg-en-construction-011",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "en-employment-013",
+        "detail": "operative line appears verbatim in context",
+        "doc_id": "news-en-013",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "en-employment-019",
+        "detail": "context contains the case's own source document",
+        "doc_id": "judg-en-employment-019",
+        "guard": "self_retrieval",
+        "score": 1.0
+      },
+      {
+        "case_id": "en-employment-019",
+        "detail": "expected answer appears verbatim in context",
+        "doc_id": "judg-en-employment-019",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "en-loan-021",
+        "detail": "operative line appears verbatim in context",
+        "doc_id": "news-en-021",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "en-loan-027",
+        "detail": "context document is a near copy of the expected judgment (100% of its 5-grams)",
+        "doc_id": "archive-027-en",
+        "guard": "self_retrieval",
+        "score": 1.0
+      },
+      {
+        "case_id": "en-loan-027",
+        "detail": "expected answer appears verbatim in context",
+        "doc_id": "archive-027-en",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "en-construction-029",
+        "detail": "operative line appears verbatim in context",
+        "doc_id": "news-en-029",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-loan-003",
+        "detail": "context contains the case's own source document",
+        "doc_id": "judg-ar-loan-003",
+        "guard": "self_retrieval",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-loan-003",
+        "detail": "expected answer appears verbatim in context",
+        "doc_id": "judg-ar-loan-003",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-construction-005",
+        "detail": "operative line appears verbatim in context",
+        "doc_id": "news-ar-005",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-construction-011",
+        "detail": "context contains the case's own source document",
+        "doc_id": "judg-ar-construction-011",
+        "guard": "self_retrieval",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-construction-011",
+        "detail": "expected answer appears verbatim in context",
+        "doc_id": "judg-ar-construction-011",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-employment-013",
+        "detail": "operative line appears verbatim in context",
+        "doc_id": "news-ar-013",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-employment-019",
+        "detail": "context contains the case's own source document",
+        "doc_id": "judg-ar-employment-019",
+        "guard": "self_retrieval",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-employment-019",
+        "detail": "expected answer appears verbatim in context",
+        "doc_id": "judg-ar-employment-019",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-loan-021",
+        "detail": "operative line appears verbatim in context",
+        "doc_id": "news-ar-021",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-loan-027",
+        "detail": "context document is a near copy of the expected judgment (100% of its 5-grams)",
+        "doc_id": "archive-027-ar",
+        "guard": "self_retrieval",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-loan-027",
+        "detail": "expected answer appears verbatim in context",
+        "doc_id": "archive-027-ar",
+        "guard": "answer_bearing",
+        "score": 1.0
+      },
+      {
+        "case_id": "ar-construction-029",
+        "detail": "operative line appears verbatim in context",
+        "doc_id": "news-ar-029",
+        "guard": "answer_bearing",
+        "score": 1.0
+      }
+    ],
+    "flagged": [
+      "ar-construction-005",
+      "ar-construction-011",
+      "ar-construction-029",
+      "ar-employment-013",
+      "ar-employment-019",
+      "ar-loan-003",
+      "ar-loan-021",
+      "ar-loan-027",
+      "en-construction-005",
+      "en-construction-011",
+      "en-construction-029",
+      "en-employment-013",
+      "en-employment-019",
+      "en-loan-003",
+      "en-loan-021",
+      "en-loan-027"
+    ],
+    "mode": "exclude",
+    "n_cases": 72,
+    "whole_text_trap": {
+      "dataset_disagreements": [
+        {
+          "case_id": "en-employment-001",
+          "operative": "rejected",
+          "whole_text": "accepted"
+        },
+        {
+          "case_id": "en-sale-008",
+          "operative": "dismissed",
+          "whole_text": "accepted"
+        },
+        {
+          "case_id": "en-tort-016",
+          "operative": "partial",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "en-lease-024",
+          "operative": "accepted",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "en-sale-032",
+          "operative": "dismissed",
+          "whole_text": "accepted"
+        },
+        {
+          "case_id": "en-tort-034",
+          "operative": "partial",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "ar-employment-001",
+          "operative": "rejected",
+          "whole_text": "accepted"
+        },
+        {
+          "case_id": "ar-sale-008",
+          "operative": "accepted",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "ar-tort-016",
+          "operative": "dismissed",
+          "whole_text": "accepted"
+        },
+        {
+          "case_id": "ar-lease-024",
+          "operative": "partial",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "ar-sale-032",
+          "operative": "accepted",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "ar-tort-034",
+          "operative": "dismissed",
+          "whole_text": "accepted"
+        }
+      ],
+      "n_scored": 72,
+      "naive_accuracy": 0.763889,
+      "operative_accuracy": 0.861111,
+      "output_disagreements": [
+        {
+          "case_id": "en-sale-008",
+          "gold": "dismissed",
+          "operative": "accepted",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "en-tort-016",
+          "gold": "partial",
+          "operative": "partial",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "en-sale-032",
+          "gold": "dismissed",
+          "operative": "dismissed",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "en-tort-034",
+          "gold": "partial",
+          "operative": "dismissed",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "ar-sale-008",
+          "gold": "accepted",
+          "operative": "accepted",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "ar-tort-016",
+          "gold": "dismissed",
+          "operative": "dismissed",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "ar-lease-024",
+          "gold": "partial",
+          "operative": "partial",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "ar-sale-032",
+          "gold": "accepted",
+          "operative": "accepted",
+          "whole_text": "rejected"
+        },
+        {
+          "case_id": "ar-tort-034",
+          "gold": "dismissed",
+          "operative": "dismissed",
+          "whole_text": "rejected"
+        }
+      ]
+    }
+  },
+  "primary": "operative_verdict",
+  "system": {
+    "model": "simulated-judge-1",
+    "name": "judgment-prompt",
+    "prompt": "prompts/judgment.txt",
+    "prompt_version": "fcc4689a3e7a"
+  }
+}

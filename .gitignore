@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local run artifacts (baselines/ and recorded outputs are committed on purpose)
+runs/
+*.local.jsonl
+
+# Local Claude Code settings
+.claude/

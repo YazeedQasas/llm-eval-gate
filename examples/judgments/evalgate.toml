@@ -1,0 +1,39 @@
+# llm-eval-gate config for the synthetic judgment-prediction demo.
+# Paths are relative to this file.
+
+[dataset]
+path = "cases.jsonl"
+tags = []                      # e.g. ["arabic"] to run one slice
+
+[system]
+name = "judgment-prompt"
+model = "simulated-judge-1"
+prompt = "prompts/judgment.txt"          # edit this file and the gate replays its recording
+recordings = "recordings.jsonl"           # committed; CI only ever replays these
+live = "simulated_model:make_generate"    # used by `evalgate record` only
+
+[system.params]
+temperature = 0
+seed = 0
+
+# The first scorer is the primary metric unless [gate] primary says otherwise.
+[[scorers]]
+name = "operative_verdict"
+
+[[scorers]]
+name = "normalized_match"      # informational: full-text match is near zero for free text
+
+[guards]
+mode = "exclude"               # fail | exclude | warn
+self_retrieval = { containment = 0.8, ngram = 5 }
+answer_bearing = { threshold = 0.7, ngram = 3 }
+whole_text_trap = {}
+
+[gate]
+primary = "operative_verdict"
+baseline = "baselines/main.json"
+max_drop = 0.02                # fail if the primary pass rate drops more than 2 points...
+alpha = 0.05                   # ...and the paired test says the drop is not noise
+max_tag_drop = 0.10            # per tag, for tags with at least min_tag_cases cases
+min_tag_cases = 8
+max_regressed = 5              # hard cap on pass -> fail flips, significant or not
