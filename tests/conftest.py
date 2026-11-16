@@ -12,5 +12,11 @@ def demo_config_path() -> Path:
 
 
 @pytest.fixture
+def v1_prompt() -> Path:
+    """A frozen copy of the baseline prompt, independent of what judgment.txt holds."""
+    return DEMO / "prompts" / "candidates" / "v1-terse.txt"
+
+
+@pytest.fixture
 def v2_prompt() -> Path:
     return DEMO / "prompts" / "candidates" / "v2-fluent.txt"
