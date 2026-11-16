@@ -47,9 +47,15 @@ def test_evaluate_is_byte_reproducible(demo_config_path):
     assert dump_results(evaluate(cfg).results) == dump_results(evaluate(cfg).results)
 
 
-def test_committed_baseline_matches_fresh_freeze(demo_config_path):
-    cfg = load_config(demo_config_path)
-    assert cfg.gate.baseline.read_text(encoding="utf-8") == dump_results(evaluate(cfg).results)
+def test_committed_baseline_matches_fresh_freeze(demo_config_path, v1_prompt):
+    # Pinned to the v1 prompt copy so this test is about reproducibility, not about
+    # which prompt is checked in (that's the gate's job).
+    cfg = load_config(demo_config_path).with_prompt(v1_prompt)
+    fresh = evaluate(cfg).results
+    committed = json.loads(cfg.gate.baseline.read_text(encoding="utf-8"))
+    assert committed["system"]["prompt_version"] == fresh["system"]["prompt_version"]
+    committed["system"]["prompt"] = fresh["system"]["prompt"]  # path differs, content doesn't
+    assert dump_results(committed) == dump_results(fresh)
 
 
 def test_exclude_mode_drops_flagged_cases(demo_config_path):
@@ -83,8 +89,8 @@ def test_naive_primary_refused(demo_copy):
 # --- CLI ------------------------------------------------------------------------
 
 
-def test_cli_check_passes_on_baseline_prompt(demo_config_path, capsys):
-    assert main(["check", "-c", str(demo_config_path)]) == EXIT_OK
+def test_cli_check_passes_on_baseline_prompt(demo_config_path, v1_prompt, capsys):
+    assert main(["check", "-c", str(demo_config_path), "--prompt", str(v1_prompt)]) == EXIT_OK
     assert "evalgate: PASS" in capsys.readouterr().out
 
 
