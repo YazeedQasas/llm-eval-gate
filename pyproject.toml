@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "llm-eval-gate"
-version = "0.0.1"
+version = "0.1.0"
 description = "Offline regression gates for LLM systems: golden datasets, deterministic scorers, frozen baselines, leakage guards and a CI gate."
 readme = "README.md"
 license = "MIT"

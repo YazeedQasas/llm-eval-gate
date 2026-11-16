@@ -1,0 +1,46 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e ".[dev]"
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: pytest -q
+
+  # The gate itself. It runs inside a container with networking switched off, so a
+  # green run proves the evaluation is fully offline: no model calls, no downloads.
+  eval-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull the runtime image (network is still on here)
+        run: docker pull python:3.12-slim
+      - name: evalgate check (network disabled)
+        run: |
+          touch "$GITHUB_STEP_SUMMARY"
+          docker run --rm --network none \
+            -v "$PWD:/repo:ro" \
+            -v "$GITHUB_STEP_SUMMARY:/summary.md" \
+            -e GITHUB_STEP_SUMMARY=/summary.md \
+            -e PYTHONPATH=/repo/src \
+            -w /repo/examples/judgments \
+            python:3.12-slim \
+            python -m evalgate check

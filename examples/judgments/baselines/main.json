@@ -1183,7 +1183,7 @@
     "n": 72,
     "path": "cases.jsonl"
   },
-  "evalgate_version": "0.0.1",
+  "evalgate_version": "0.1.0",
   "excluded": [
     "ar-construction-005",
     "ar-construction-011",
